@@ -1,0 +1,20 @@
+secrets.json
+master.key
+
+# 字节码编译文件
+__pycache__/
+*.pyc
+
+# --- 虚拟环境 ---
+venv/
+env/
+.venv/
+
+# --- IDE 配置 ---
+.vscode/
+.idea/
+
+# --- 打包产生的文件 ---
+build/
+dist/
+*.spec
