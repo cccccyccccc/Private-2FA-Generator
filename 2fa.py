@@ -28,7 +28,6 @@ class SecurityManager:
             with open(KEY_FILE, "wb") as f:
                 f.write(key)
             return key
-
     def encrypt_data(self, data_list):
         json_str = json.dumps(data_list)
         return self.cipher.encrypt(json_str.encode('utf-8'))
